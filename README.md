@@ -5,8 +5,7 @@ El siguiente dataset de college scoreboard se usara para una agrupacion y caract
 ## Pre-procesamiento de datos
 El dataset contiene una dimensionalidad extremadamente alta de 1715 columnas , siendo estas muchas variables , para ello empezaremos por descartar columnas que posean algún dato nulo, dejando únicamente 16 columnas.
 
-usando un código para descartar las variables que no son numéricas, y al final nos quedan 12 columnas con datos unicamente numéricos y sin valores nulos.
-
+usando un código para descartar las variables que no son numéricas, y al final nos quedan 12 columnas con datos unicamente numéricos y sin valores nulos, lo siguiente sera eliminar variables que no son utiles , por ejemplo UNITD,OPEID, opeid6 son simplemente identificadores y no aportan informacion util , variables como st_fips son una representacion de un codigo postal , si bien puede decir informacion del estado de la institucion, tiene demasiados valores distintos para poder presentar efectivamente la informacion.
 
 ## Matriz de correlacion
 Lo siguiente sera escoger las posibles variables a analizar para aplicar el metodo de k-means, para esto hacemos una matriz de coorelacion y escogemos las variables mas dispersas
