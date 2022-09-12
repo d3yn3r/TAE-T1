@@ -1,5 +1,5 @@
 # Clustering-Uni-Score
-El siguiente dataset de college scoreboard se usara para una agrupacion y caracterizacion de instituciones.
+El siguiente dataset de college scoreboard se usara para una agrupacion y caracterizacion de instituciones, para esto usaremos la tecnica del one hot encoding para variables categoricas y se aplicara el metodo de k-means , de esto sacaremos los grupos y podremos interpretar sus caracteristicas con las nuevas variables obtenidas por el one hot encoding
 
 
 ## Pre-procesamiento de datos
