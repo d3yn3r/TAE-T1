@@ -150,7 +150,7 @@ El cuarto grupo cuenta con 1707 instituciones, ninguna de estas instituciones se
 De los grupos los mejores para escoger instituciones , son el 4 si buscas una institucion privada son la que mejores resultados de certificacion tienen , sin embargo el grupo 2 es bastante estable  y las instituciones son publicas.
 
 ## Propuesta
-Para poder implementar esto a colombia , se podria aplicar un sondeo similar buscando donde se ubica cada institucion en el pais , cual es la maxima titulación que obtienen y que tipo de organizacion es , al hacer un clustering de estas instituciones , una persona podria escoger de un grupo que tienda hacia sus necesidades , ayudando a la seleccion de educacion superior.
+Para una implementación del estudio anterior en Colombia, se podría realizar un sondeo a todas las instituciones ubicadas en el país, los tipos de titulación que se obtienen y el tipo de organización que es, públicas o privadas, también se podría realizar sondeos a la población con el fin de obtener datos respecto a que instituciones prefieren las personas y luego realizar técnicas de clustering obtener agrupaciones de la preferencia respecto a las instituciones de educación superior, con los datos recolectados acerca de las instituciones realizar agrupamientos de cuales son las mejores instituciones de educación superior, esto definiendo estándares de calidad y ayudando a decidir en que institución de educación superior escoger. 
 
 ## Aplicacion
 
