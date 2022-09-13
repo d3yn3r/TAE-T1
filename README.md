@@ -60,7 +60,7 @@ Las variables son numericas pero tienden a representar informacion de manera cat
 
 Una vez identificadas las variables aplicamos el one hot encoding , asi creamos variables numericas dentro del rango de 1 y 0 que describen la situacion, por ende no es necesario normalizarlas.
 
-Lo siguiente sera correr los codigos para la curva de codo el cual nos indicaran un buen k , para el metodo de k-means
+Lo siguiente sera correr los codigos para la curva de codo y el estadistico de gap los cuales nos indicaran un buen k , para el metodo de k-means
 ## Curva del codo
 
 Para la curva del codo la primera inclinación importante la tomaremos en k=4
@@ -68,19 +68,10 @@ Para la curva del codo la primera inclinación importante la tomaremos en k=4
 ![](https://github.com/d3yn3r/TAE-T1/blob/main/Imagenes_2/codo.PNG)
 
 ## Estadistico de Gap
-El estadistico de gap nos muestra una grafica en cual el primer cambio positivo ocurre en k=3 , al igual que en la curva del codo
+El estadistico de gap si bien en el codigo analisis nos muestra un k alto , en la imagen la tendencia empieza a notarse en un k igual a 4, por ende el k definitivo sera en k=4
 
-![](https://github.com/ancgarciamo/Clustering-Uni-Score/blob/main/Imagenes/GAP.png)
+![](https://github.com/d3yn3r/TAE-T1/blob/main/Imagenes_2/gap.png)
 
-## Coeficiente de la silueta 
-El coeficiente mas alto es con k=5 , sin embargo como está muy cerca de k=3 y como k=3 es de las mejores elecciones desde los metodos anteriores , para el clustering se usará k-means con k=3 
-
-![](https://github.com/ancgarciamo/Clustering-Uni-Score/blob/main/Imagenes/siluetas%20puntajes.PNG)
-![](https://github.com/ancgarciamo/Clustering-Uni-Score/blob/main/Imagenes/K2.png)
-![](https://github.com/ancgarciamo/Clustering-Uni-Score/blob/main/Imagenes/K3.png)
-![](https://github.com/ancgarciamo/Clustering-Uni-Score/blob/main/Imagenes/K4.png)
-![](https://github.com/ancgarciamo/Clustering-Uni-Score/blob/main/Imagenes/K5.png)
-![](https://github.com/ancgarciamo/Clustering-Uni-Score/blob/main/Imagenes/K6.png)
 ## Dendograma 
 
 ![](https://github.com/d3yn3r/TAE-T1/blob/main/Imagenes_2/dendograma.PNG)
