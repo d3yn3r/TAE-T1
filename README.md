@@ -50,6 +50,10 @@ Las variables son numericas pero tienden a representar informacion de manera cat
 - 1, Main campus
 - 0, Branch
 
+#### CURROPER
+- 1, operating
+- 0, closed
+
 
 #### HCM2
 - 0, not under investigation
@@ -128,7 +132,7 @@ El tercer grupo cuenta con 1994 instituciones, un 99% de las instituciones son s
 
 ### Grupo 4
 
-El cuarto grupo cuenta con 1707 instituciones, 
+El cuarto grupo cuenta con 1707 instituciones, ninguna de estas instituciones se encuentra siendo investigadas, todas son su campus principal, lo mas interesante es que 66% de estas instituciones han obtenido el grado de certificado mas alto , ademas que 20% han alcanzado el segundo grado de certificacion mas alta, un 99% son privadas sin animo de lucro, como siempre estas se encuentran en el este , pero con mayor presencia en el medio este , tambien se encuentra el unico porcentaje en la region U.S de todos los grupos y un 99% de instituciones se encuentran activas.
 
 |index|HCM2\_not under investigation|HCM2\_under investigation|main\_Main campus|main\_branch|HIGHDEG\_Associate degree|HIGHDEG\_Bachelor&\#39;s degree|HIGHDEG\_Certificate degree|HIGHDEG\_Graduate degree|HIGHDEG\_Non-degree-granting|CONTROL\_Private Non Profit|CONTROL\_Private for profit|CONTROL\_Public|region\_Far West|region\_Great Lakes|region\_Mid East|region\_New England|region\_Outlying Areas|region\_Plains|region\_Rocky Mountains|region\_Southeast|region\_Southwest|region\_U\.S|CURROPER\_closed|CURROPER\_operating|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -140,6 +144,9 @@ El cuarto grupo cuenta con 1707 instituciones,
 |50%|1\.0|0\.0|1\.0|0\.0|0\.0|0\.0|0\.0|1\.0|0\.0|1\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|1\.0|
 |75%|1\.0|0\.0|1\.0|0\.0|0\.0|0\.0|0\.0|1\.0|0\.0|1\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|1\.0|
 |max|1\.0|0\.0|1\.0|0\.0|1\.0|1\.0|1\.0|1\.0|1\.0|1\.0|1\.0|1\.0|1\.0|1\.0|1\.0|1\.0|1\.0|1\.0|1\.0|1\.0|1\.0|0\.0|1\.0|1\.0|
+
+## Conclusiones de los grupos
+De los grupos los mejores para escoger instituciones , son el 4 si buscas una institucion privada son la que mejores resultados de certificacion tienen , sin embargo el grupo 2 es bastante estable  y las instituciones son publicas.
 
 ## Propuesta
 Para poder implementar esto a colombia , se podria aplicar un sondeo similar buscando donde se ubica cada institucion en el pais , cual es la maxima titulación que obtienen y que tipo de organizacion es.
