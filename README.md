@@ -21,7 +21,7 @@ Como vemos las variables que quedaron  , en su mayoría casi no se relacionan li
 
 ## One hot encoding
 
-### CONTROL
+#### CONTROL
 - 1, Public
 - 2, Private nonprofit
 - 3, Private for-profit
