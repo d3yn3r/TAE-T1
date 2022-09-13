@@ -151,3 +151,10 @@ De los grupos los mejores para escoger instituciones , son el 4 si buscas una in
 
 ## Propuesta
 Para poder implementar esto a colombia , se podria aplicar un sondeo similar buscando donde se ubica cada institucion en el pais , cual es la maxima titulación que obtienen y que tipo de organizacion es , al hacer un clustering de estas instituciones , una persona podria escoger de un grupo que tienda hacia sus necesidades , ayudando a la seleccion de educacion superior.
+
+## Aplicacion
+
+https://ancgarciamo.shinyapps.io/Info_general_grupos/
+
+## Video de reporte tecnico
+
