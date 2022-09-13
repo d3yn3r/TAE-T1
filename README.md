@@ -20,7 +20,7 @@ Como vemos las variables que quedaron  , en su mayoría casi no se relacionan li
 ## One hot encoding
 
 ### Categorizacion
-Las variables son numericas pero tienden a representar informacion de manera categorica (con excepcion de NUMBRANCH que representa su informacion numerica sin representar informacio categorica) , para esto transformaremos los numeros en palabras que definan bien que significan.
+Las variables son numericas pero tienden a representar informacion de manera categorica (con excepcion de NUMBRANCH que representa su informacion numerica sin representar información categorica, por ende se separara de estas variables) , para esto transformaremos los numeros en palabras que definan bien que significan.
 
 #### CONTROL
 - 1, Public
@@ -58,7 +58,7 @@ Las variables son numericas pero tienden a representar informacion de manera cat
 - 0, not under investigation
 - 1, under investigation
 
-Una vez identificadas las variables aplicamos el one hot encoding , asi creamos variables numericas dentro del rango de 1 y 0 que describen la situacion.
+Una vez identificadas las variables aplicamos el one hot encoding , asi creamos variables numericas dentro del rango de 1 y 0 que describen la situacion, por ende no es necesario normalizarlas.
 
 Lo siguiente sera correr los codigos para la curva de codo el cual nos indicaran un buen k , para el metodo de k-means
 ## Curva del codo
@@ -83,8 +83,10 @@ El coeficiente mas alto es con k=5 , sin embargo como está muy cerca de k=3 y c
 ![](https://github.com/ancgarciamo/Clustering-Uni-Score/blob/main/Imagenes/K6.png)
 ## Dendograma 
 
-![](https://github.com/ancgarciamo/Clustering-Uni-Score/blob/main/Imagenes/dendrograma.png)
+![](https://github.com/d3yn3r/TAE-T1/blob/main/Imagenes_2/dendograma.PNG)
+
 ## Caracterización
+
 ### Grupo 0
 El primer grupo se caracteriza que en las regiones mas a las cuales tienen indice mas alto son “Rocky Mountains” , “Far West” y “Outlying areas” tiendan a ser las que mantienen una titulacion mas alta, asi mismo las instituciones privadas sin esperar beneficios tambien son las que mantienen una titulacion mas alta.
 
