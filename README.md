@@ -1,6 +1,7 @@
 # Clustering-Uni-Score
-El siguiente dataset de college scoreboard se usara para una agrupacion y caracterizacion de instituciones, para esto usaremos la tecnica del one hot encoding para variables categoricas y se aplicara el metodo de k-means , de esto sacaremos los grupos y podremos interpretar sus caracteristicas con las nuevas variables obtenidas por el one hot encoding
+El siguiente dataset de college scoreboard se usara para una agrupacion y caracterizacion de instituciones, para esto usaremos la tecnica del one hot encoding para variables categoricas y se aplicara el metodo de k-means , de esto sacaremos los grupos y podremos interpretar sus caracteristicas con las nuevas variables obtenidas por el one hot encoding.
 
+Al obtener los grupos del clustering una persona podria obtener informacion resumida para elegir una institucion que cumpla con ciertas caracteristicas , como si por ejemplo quiere una institucion que haya alcanzado un alto grado de certificacion o que sea publica,si un grupo cuenta con cierta tendencia en estas caracteristicas que sean atractivas para el interesado , la persona se le haria mas facil escoger instituciones en un grupo particular que sabe que pueden cumplir con sus expectativas.
 
 ## Pre-procesamiento de datos
 El dataset contiene una dimensionalidad extremadamente alta de 1715 columnas , siendo estas muchas variables , para ello empezaremos por descartar columnas que posean algún dato nulo, dejando únicamente 16 columnas.
@@ -149,4 +150,4 @@ El cuarto grupo cuenta con 1707 instituciones, ninguna de estas instituciones se
 De los grupos los mejores para escoger instituciones , son el 4 si buscas una institucion privada son la que mejores resultados de certificacion tienen , sin embargo el grupo 2 es bastante estable  y las instituciones son publicas.
 
 ## Propuesta
-Para poder implementar esto a colombia , se podria aplicar un sondeo similar buscando donde se ubica cada institucion en el pais , cual es la maxima titulación que obtienen y que tipo de organizacion es.
+Para poder implementar esto a colombia , se podria aplicar un sondeo similar buscando donde se ubica cada institucion en el pais , cual es la maxima titulación que obtienen y que tipo de organizacion es , al hacer un clustering de estas instituciones , una persona podria escoger de un grupo que tienda hacia sus necesidades , ayudando a la seleccion de educacion superior.
