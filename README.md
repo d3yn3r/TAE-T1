@@ -14,19 +14,20 @@ Lo siguiente sera escoger las posibles variables a analizar para aplicar el meto
 
 
 
-
-
 Como vemos las variables que quedaron  , en su mayoría casi no se relacionan linealmente con excepcion de HIGHDEG Y PREDDEG , estas tienen una relacion de 0.92 de similitud , por ende eliminaremos una de las 2 , siendo PREDDEG.
 
 
 ## One hot encoding
+
+### Categorizacion
+Las variables son numericas pero tienden a representar informacion de manera categorica (con excepcion de NUMBRANCH que representa su informacion numerica sin representar informacio categorica) , para esto transformaremos los numeros en palabras que definan bien que significan.
 
 #### CONTROL
 - 1, Public
 - 2, Private nonprofit
 - 3, Private for-profit
 
-###  REGION
+####  REGION
 - 1, New England
 - 2, Mid East
 - 3, Great Lakes
@@ -37,8 +38,7 @@ Como vemos las variables que quedaron  , en su mayoría casi no se relacionan li
 - 8, Far West
 - 9, Outlying Areas
 
-
-### HIGHDEG
+#### HIGHDEG
 
 - 0, Non-degree-granting
 - 1, Certificate degree
@@ -46,8 +46,21 @@ Como vemos las variables que quedaron  , en su mayoría casi no se relacionan li
 - 3, Bachelor's degree
 - 4, Graduate degree
 
+### main
+- 1, Main campus
+- 0, Branch
 
-Lo siguiente sera correr los codigos para la curva de codo , el estadisitico de gap y el coeficiente de siluetas , el cual nos indicaran un buen k , para el metodo de k-means
+### CURROPER
+- 0, Closed
+- 1, Operating
+
+### HCM2
+- 0, not under investigation
+- 1, under investigation
+
+
+
+Lo siguiente sera correr los codigos para la curva de codo el cual nos indicaran un buen k , para el metodo de k-means
 ## Curva del codo
 
 Para la curva del codo la primera inclinación importante la tomaremos en k=3
