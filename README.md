@@ -10,7 +10,7 @@ usando un código para descartar las variables que no son numéricas, y al final
 ## Matriz de correlacion
 Lo siguiente sera escoger las posibles variables a analizar para aplicar el metodo de k-means, para esto hacemos una matriz de coorelacion y escogemos las variables mas dispersas
 
-![](https://github.com/ancgarciamo/Clustering-Uni-Score/blob/main/Imagenes/Mapa%20de%20correlacion.PNG)
+![](https://github.com/d3yn3r/TAE-T1/blob/main/Imagenes_2/Mapa%20de%20correlacion.PNG)
 
 
 
@@ -65,7 +65,7 @@ Lo siguiente sera correr los codigos para la curva de codo el cual nos indicaran
 
 Para la curva del codo la primera inclinación importante la tomaremos en k=3
 
-![](https://github.com/ancgarciamo/Clustering-Uni-Score/blob/main/Imagenes/codo.PNG)
+![](https://github.com/d3yn3r/TAE-T1/blob/main/Imagenes_2/codo.PNG)
 
 ## Estadistico de Gap
 El estadistico de gap nos muestra una grafica en cual el primer cambio positivo ocurre en k=3 , al igual que en la curva del codo
