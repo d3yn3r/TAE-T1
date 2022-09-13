@@ -74,7 +74,7 @@ El estadistico de gap si bien en el codigo analisis nos muestra un k alto , en l
 
 ![](https://github.com/d3yn3r/TAE-T1/blob/main/Imagenes_2/gap.png)
 
-## Dendograma 
+## Dendrograma 
 
 ![](https://github.com/d3yn3r/TAE-T1/blob/main/Imagenes_2/dendograma.PNG)
 
