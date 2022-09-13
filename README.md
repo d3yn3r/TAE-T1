@@ -82,6 +82,18 @@ El estadistico de gap si bien en el codigo analisis nos muestra un k alto , en l
 El primer grupo se caracteriza que en las regiones mas a las cuales tienen indice mas alto son “Rocky Mountains” , “Far West” y “Outlying areas” tiendan a ser las que mantienen una titulacion mas alta, asi mismo las instituciones privadas sin esperar beneficios tambien son las que mantienen una titulacion mas alta.
 
 
+|index|HCM2\_not under investigation|HCM2\_under investigation|main\_Main campus|main\_branch|HIGHDEG\_Associate degree|HIGHDEG\_Bachelor&\#39;s degree|HIGHDEG\_Certificate degree|HIGHDEG\_Graduate degree|HIGHDEG\_Non-degree-granting|CONTROL\_Private Non Profit|CONTROL\_Private for profit|CONTROL\_Public|region\_Far West|region\_Great Lakes|region\_Mid East|region\_New England|region\_Outlying Areas|region\_Plains|region\_Rocky Mountains|region\_Southeast|
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|count|2232\.0|2232\.0|2232\.0|2232\.0|2232\.0|2232\.0|2232\.0|2232\.0|2232\.0|2232\.0|2232\.0|2232\.0|2232\.0|2232\.0|2232\.0|2232\.0|2232\.0|2232\.0|2232\.0|2232\.0|
+|mean|0\.9995519713261649|0\.00044802867383512545|0\.07347670250896057|0\.9265232974910395|0\.19578853046594982|0\.14381720430107528|0\.3163082437275986|0\.12813620071684587|0\.21594982078853048|0\.11648745519713262|0\.8019713261648745|0\.08154121863799284|0\.1442652329749104|0\.16980286738351255|0\.11738351254480286|0\.042114695340501794|0\.0228494623655914|0\.07840501792114696|0\.036738351254480286|0\.2585125448028674|
+|std|0\.02116668783336508|0\.021166687833365082|0\.26097584411121455|0\.2609758441112145|0\.39689539925523026|0\.35098291732803477|0\.465138980945418|0\.33431630199276613|0\.4115718502142815|0\.32088044334176025|0\.3986031898861239|0\.2737258066305532|0\.3514372073424385|0\.37554365985585897|0\.3219488502470152|0\.20089581833450598|0\.14945692429073607|0\.2688681072668232|0\.18816085415388026|0\.4379152056266434|
+|min|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|
+|25%|1\.0|0\.0|0\.0|1\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|1\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|
+|50%|1\.0|0\.0|0\.0|1\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|1\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|
+|75%|1\.0|0\.0|0\.0|1\.0|0\.0|0\.0|1\.0|0\.0|0\.0|0\.0|1\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|1\.0|
+|max|1\.0|1\.0|1\.0|1\.0|1\.0|1\.0|1\.0|1\.0|1\.0|1\.0|1\.0|1\.0|1\.0|1\.0|1\.0|1\.0|1\.0|1\.0|1\.0|1\.0|
+
+
 ![](https://github.com/ancgarciamo/Clustering-Uni-Score/blob/main/Imagenes/Grupo%200.png)
 
 
