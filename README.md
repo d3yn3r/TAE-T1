@@ -50,9 +50,6 @@ Las variables son numericas pero tienden a representar informacion de manera cat
 - 1, Main campus
 - 0, Branch
 
-#### CURROPER
-- 0, Closed
-- 1, Operating
 
 #### HCM2
 - 0, not under investigation
@@ -80,8 +77,7 @@ El estadistico de gap si bien en el codigo analisis nos muestra un k alto , en l
 
 ### Grupo 0
 
-
-
+El primer grupo cuenta con 2232 instituciones las cuales casi el 100% no se encuentran bajo investigacion , osea que no estan reportadas por problemas de cumplimiento financiero, un 92% de estas instituciones son el campus principal de la misma , la mitad de estas instituciones el mayor grado conseguido ha sido el mas bajo que se puede obtener o no han obtenido ninguna certificacion, siendo interesante que sean las mayorias de este grupo instituciones privadas con animo de lucro. geograficamente las instituciones de este grupo tienen a tener presencia en el este del pais y los grande lagos.
 
 |index|HCM2\_not under investigation|HCM2\_under investigation|main\_Main campus|main\_branch|HIGHDEG\_Associate degree|HIGHDEG\_Bachelor&\#39;s degree|HIGHDEG\_Certificate degree|HIGHDEG\_Graduate degree|HIGHDEG\_Non-degree-granting|CONTROL\_Private Non Profit|CONTROL\_Private for profit|CONTROL\_Public|region\_Far West|region\_Great Lakes|region\_Mid East|region\_New England|region\_Outlying Areas|region\_Plains|region\_Rocky Mountains|region\_Southeast|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
