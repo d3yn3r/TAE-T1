@@ -63,7 +63,7 @@ Una vez identificadas las variables aplicamos el one hot encoding , asi creamos 
 Lo siguiente sera correr los codigos para la curva de codo el cual nos indicaran un buen k , para el metodo de k-means
 ## Curva del codo
 
-Para la curva del codo la primera inclinación importante la tomaremos en k=3
+Para la curva del codo la primera inclinación importante la tomaremos en k=4
 
 ![](https://github.com/d3yn3r/TAE-T1/blob/main/Imagenes_2/codo.PNG)
 
