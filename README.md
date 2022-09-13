@@ -46,19 +46,19 @@ Las variables son numericas pero tienden a representar informacion de manera cat
 - 3, Bachelor's degree
 - 4, Graduate degree
 
-### main
+#### main
 - 1, Main campus
 - 0, Branch
 
-### CURROPER
+#### CURROPER
 - 0, Closed
 - 1, Operating
 
-### HCM2
+#### HCM2
 - 0, not under investigation
 - 1, under investigation
 
-
+Una vez identificadas las variables aplicamos el one hot encoding , asi creamos variables numericas dentro del rango de 1 y 0 que describen la situacion.
 
 Lo siguiente sera correr los codigos para la curva de codo el cual nos indicaran un buen k , para el metodo de k-means
 ## Curva del codo
