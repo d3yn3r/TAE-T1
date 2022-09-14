@@ -157,4 +157,4 @@ Para una implementación del estudio anterior en Colombia, se podría realizar u
 https://ancgarciamo.shinyapps.io/Info_general_grupos/
 
 ## Video de reporte tecnico
-
+https://www.youtube.com/watch?v=dN7XZ578DjI
